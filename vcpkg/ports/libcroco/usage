@@ -1,0 +1,4 @@
+The package libcroco provides CMake targets:
+
+    find_package(unofficial-libcroco CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE unofficial::libcroco)

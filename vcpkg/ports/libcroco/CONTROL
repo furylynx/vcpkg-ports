@@ -1,0 +1,4 @@
+Source: libcroco
+Version: 0.6.12
+Description: A CSS parsing library
+Build-Depends: glib, libxml2

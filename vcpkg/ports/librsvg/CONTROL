@@ -1,0 +1,4 @@
+Source: librsvg
+Version: 2.45.5
+Description: SVG rendering library
+Build-Depends: cairo, freetype, gdk-pixbuf, glib, pango, libxml2, libcroco
