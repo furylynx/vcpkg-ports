@@ -17,3 +17,5 @@ See the usage files for each package to learn how to use repective packages.
 ## Additional Notes
 
 The currently available port for librsvg uses the deprecated version 2.40.20. More recent versions of librsvg are based on rust making to installation more complex. Feel free to contribute portfiles for these versions.
+
+The ports were only tested using a windows x64 architecture. Feel free to test these ports on other platforms and contribute patches if needed.
