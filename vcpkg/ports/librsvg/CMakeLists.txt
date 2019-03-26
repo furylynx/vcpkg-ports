@@ -74,6 +74,8 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 add_library(librsvg ${SOURCES})
 
+set_target_properties(librsvg PROPERTIES OUTPUT_NAME "rsvg-2")
+
 include(GenerateExportHeader)
 generate_export_header(librsvg)
 

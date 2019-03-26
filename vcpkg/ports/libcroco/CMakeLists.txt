@@ -42,6 +42,8 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 add_library(libcroco ${SOURCES})
 
+set_target_properties(libcroco PROPERTIES OUTPUT_NAME "croco-0.6")
+
 include(GenerateExportHeader)
 generate_export_header(libcroco)
 
